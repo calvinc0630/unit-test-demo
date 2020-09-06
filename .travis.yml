@@ -11,6 +11,7 @@ node_js:
 branches:
   only:
     - master
+    - dev
 # 要执行的脚本
 script:
   - npm test
